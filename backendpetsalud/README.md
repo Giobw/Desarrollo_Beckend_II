@@ -10,7 +10,7 @@ Backend Spring Boot 3.3 / Java 17 / MySQL con autenticación JWT stateless y aut
 | GERENTE | Todo lo anterior + gestión de usuarios, eliminaciones y ventas globales |
 
 ## Ejecución
-1. MySQL 8 en `localhost:3306` (la base `petsalud_db` se crea sola).
+1. MySQL 8 en `localhost:3307` (la base `petsalud_db` se crea sola).
 2. Variables de entorno: `DB_USER`, `DB_PASSWORD`, `JWT_SECRET` (Base64, ≥256 bits; hay un valor solo-desarrollo por defecto).
 3. `./mvnw spring-boot:run` (puerto 8080).
 
